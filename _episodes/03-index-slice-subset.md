@@ -427,7 +427,7 @@ Experiment with selecting various subsets of the "surveys" data.
 >   list of values as follows:
 >
 >    ~~~
->    surveys_df[surveys_df['species_id'].isin([listGoesHere])]
+>    surveys_df[surveys_df['species_id'].isin(['listGoesHere'])]
 >    ~~~
 >    {: .language-python }
 >
