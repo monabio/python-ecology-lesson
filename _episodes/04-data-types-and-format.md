@@ -213,7 +213,7 @@ values.
 ~~~
 # Convert the record_id field from an integer to a float
 surveys_df['record_id'] = surveys_df['record_id'].astype('float64')
-surveys_df['record_id'].dtype
+surveys_df.dtype
 ~~~
 {: .language-python}
 
